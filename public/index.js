@@ -3,7 +3,7 @@ try {
   const response = await data.json()
   renderCards(response)
 } catch (err) {
-  console.log(err)
+  console.error(err)
 }
 
 function renderCards(cardsData) {

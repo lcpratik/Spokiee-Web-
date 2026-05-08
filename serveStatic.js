@@ -25,7 +25,5 @@ export async function serveStatic(req, res, basedir) {
     }else{
         sendResponse(res, 500, "text/html", "<html><h1>Error</h1><html>");
     }
-    
-    console.log(err);
   }
 }

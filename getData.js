@@ -1,4 +1,3 @@
-import http from "node:http"
 import path from "node:path"
 import fs from "node:fs/promises"
 
@@ -12,7 +11,7 @@ export async function getData(){
         return parsedData
 
     }catch(err){
-        console.log(err)
+        console.error(err)
 
     }
 
